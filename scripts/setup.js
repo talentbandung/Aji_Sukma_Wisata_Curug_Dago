@@ -96,3 +96,8 @@ $(document).ready(function () {
         offset: '-100%'
     });
 });
+$(".hover").mouseleave(
+    function () {
+      $(this).removeClass("hover");
+    }
+  );
